@@ -1,0 +1,11 @@
+# Ignore everything
+*
+.*
+!.gitignore
+!.git
+
+# Except the following
+!neofetch
+!waybar
+!hypr
+!rofi
