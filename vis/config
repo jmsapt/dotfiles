@@ -1,0 +1,15 @@
+# Vis config file
+visualizer.spectrum.falloff.mode=fill
+audio.stereo.enabled=false
+
+colors.scheme=default,colorful,pink
+visualizer.spectrum.color.scheme=colorful
+
+visualizer.spectrum.bar.width=2
+visualizer.spectrum.bar.spacing=1
+visualizer.scaling.multiplier=0.75
+
+#Available smoothing options are monstercat, sgs, none.
+visualizer.spectrum.smoothing.mode=sgs
+visualizer.sgs.smoothing.points=3
+visualizer.sgs.smoothing.passes=4

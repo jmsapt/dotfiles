@@ -1,6 +1,6 @@
 # Ignore everything
-*
-.*
+*/
+
 
 # Except the following
 !alacritty
@@ -10,5 +10,7 @@
 !swaync
 !neofetch
 !waybar
-!hypr
 !rofi
+!nvim
+!vis
+!hypr
