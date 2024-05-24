@@ -1,16 +1,20 @@
 # Ignore everything
 */
-
+!.gitignore
+!.git
 
 # Except the following
-!alacritty
-!btop
-!wlogout
-!swaylock
-!swaync
-!neofetch
-!waybar
-!rofi
-!nvim
-!vis
-!hypr
+# Terminal programs
+!alacritty/**
+!btop/**
+!nvim/**
+!vis/**
+!neofetch/**
+
+# UI / Display manager
+!swaylock/**
+!swaync/**
+!waybar/**
+!rofi/**
+!hypr/**
+!wlogout/**
