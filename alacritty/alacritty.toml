@@ -1,14 +1,13 @@
 live_config_reload = true
 
+# Line 5 should not be changed without updating nvim config
+[window]
+padding = { x = 12, y = 15 }
+
 [scrolling]
-multiplier = 2
+multiplier = 1
 
 [font]
 normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
 size = 12
 
-[window]
-padding = { x = 12, y = 15 }
-# opacity = 0.9
-blur = true
-dynamic_padding = true
