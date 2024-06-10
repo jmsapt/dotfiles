@@ -20,7 +20,7 @@ configuration {
 }
 
 /* ---- Load pywal colors (custom wal template) ---- */
-@import "~/.config/rofi/pywal-color/pywal-theme.rasi"
+/* @import "~/.config/rofi/pywal-color/pywal-theme.rasi" */
 
 /* ---- Window ---- */
 window {
@@ -245,3 +245,9 @@ error-message {
     background-color:      		@background;
     text-color:                 @foreground;
 }
+
+//@theme "/usr/share/rofi/themes/sidebar-v2.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"

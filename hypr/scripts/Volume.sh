@@ -35,7 +35,8 @@ notify_user() {
         notify-send -e -h string:x-canonical-private-synchronous:volume_notif -u low -i "$(get_icon)" "Volume: Muted"
     else
         notify-send -e -h int:value:"$(get_volume | sed 's/%//')" -h string:x-canonical-private-synchronous:volume_notif -u low -i "$(get_icon)" "Volume: $(get_volume)"
-        "$sDIR/Sounds.sh" --volume
+        # Comment to disable volume adjusment sounds
+        # "$sDIR/Sounds.sh" --volume
     fi
 }
 
@@ -44,7 +45,7 @@ inc_volume() {
     if [ "$(pamixer --get-mute)" == "true" ]; then
         toggle_mute
     else
-        pamixer -i 5 --allow-boost --set-limit 150 && notify_user
+        pamixer -i 10 --allow-boost --set-limit 150 && notify_user
     fi
 }
 
@@ -53,7 +54,7 @@ dec_volume() {
     if [ "$(pamixer --get-mute)" == "true" ]; then
         toggle_mute
     else
-        pamixer -d 5 && notify_user
+        pamixer -d 10 && notify_user
     fi
 }
 

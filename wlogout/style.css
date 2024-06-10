@@ -3,13 +3,13 @@
 
 /* Importing pywal colors */
 
-@import '../../.cache/wal/colors-waybar.css';
+/* @import '../../.cache/wal/colors-waybar.css'; */
 
 window {
     font-family: Fira Code Medium;
     font-size: 16pt;
     color: #cdd6f4; /* text */
-    background-color: rgba(30, 30, 46, 0.6);
+    background-color: rgba(30, 30, 46, 0.8);
 }
 
 button {
@@ -19,28 +19,29 @@ button {
     background-color: rgba(200, 220, 255, 0);
     animation: gradient_f 20s ease-in infinite;
     border-radius: 80px; /* Increased border radius for a more rounded look */
+    border: 2px;
 }
 
 button:focus {
-    background-size: 25%;
-	border: 0px;
+    /* background-size: 25%; */
+	/* border: 0px; */
 
 }
 
 button:hover {
-    background-color: @color2; 
+    background-color: #aaaaaa; 
     color: #1e1e2e;
-    background-size: 50%;
-    margin: 30px;
-    border-radius: 80px; 
-    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    /* background-size: 50%; */
+    /* margin: 30px; */
+    /* border-radius: 80px;  */
+    /* transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out; */
     box-shadow: 0 0 20px @color7; 
 	
 }
 
 /* Adjust the size of the icon or content inside the button */
 button span {
-    font-size: 1.2em; /* Increase the font size */
+    font-size: 1.0em; /* Increase the font size */
 }
 
 

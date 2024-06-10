@@ -5,6 +5,7 @@
 
 # Except the following
 # nvim is added as a submodule
+!nvim
 
 # Terminal programs
 !alacritty

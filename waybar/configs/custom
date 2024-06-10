@@ -13,7 +13,7 @@
 
     "modules-left": [
         "idle_inhibitor",
-        "hyprland/workspaces",
+        "hyprland/workspaces#4",
 
         "hyprland/window",
     ],
@@ -38,7 +38,7 @@
         "custom/power"
     ],
 
-    "hyprland/workspaces": {
+    "hyprland/workspaces#4": {
         "format": "{icon}",
         "format-icons": {
             "1": "一",
@@ -50,15 +50,8 @@
             "7": "七",
             "8": "八",
             "9": "九",
-            "0": "十",
-            "active": "",
-            "default": ""
+            "10": "十",
         },
-        "active-only": true,
-        "persistent-workspaces": {
-            "DP-3": [ 1 ], // but only workspace 1 on DP-3
-            "HMDI-A-1": [ 2 ] // but only workspace 2 on HDMI-A-1
-        }
     },
 
     "clock": {
